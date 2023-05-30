@@ -50,7 +50,7 @@ footer{
 
     display: grid;
     place-content: center;
-    height:clamp(3rem,10vh,5rem);
+    height:clamp(6rem,10vw ,8rem);
 
     background-color: hsl(222, 67%, 34%);
     font-size: 1.5rem;
@@ -60,11 +60,11 @@ footer{
 
 
 header{
-    border-radius: 0 0 10px 10px ;
+    border-radius: 0 0 20px 20px ;
     box-shadow: 0 5px 10px hsl(0 0% 0% / 0.5);
 }
 footer{
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
     box-shadow: 0 -5px 10px hsl(0 0% 0% / 0.5);
 
 }
